@@ -8,11 +8,14 @@ sudo apt-get install -y git-core
 # update package list
 sudo apt-get update
 
-#install python, g++, and make
+# install python, g++, and make
 sudo apt-get install -y python-software-properties python g++ make
 
-#install node.js
+# install node.js
 sudo add-apt-repository ppa:chris-lea/node.js
 sudo apt-get update
 sudo apt-get install -y nodejs
+
+# install heroku
+sudo wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 
