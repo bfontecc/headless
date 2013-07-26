@@ -18,4 +18,3 @@ sudo apt-get install -y nodejs
 
 # install heroku
 sudo wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
-
